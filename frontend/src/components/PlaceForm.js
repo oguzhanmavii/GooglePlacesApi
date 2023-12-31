@@ -69,7 +69,7 @@ const PlaceForm = () => {
         setShowMap(true);
       }
     } catch (error) {
-      // Handle error
+      console.log()
     }
   };
 
