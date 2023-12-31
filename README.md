@@ -1,4 +1,4 @@
-# GOOGLEPLACESAPI BACKEND SPRINGBOOT FRONTEND REACTJS
+# GOOGLEPLACES API BACKEND SPRINGBOOT FRONTEND REACTJS
 <div align="center">
   
 <img src ="https://github.com/oguzhanmavii/GooglePlacesApi/assets/77650437/7cdd3a0c-b37c-4016-b2a1-d209ffe05cee" width="500" height="300">
