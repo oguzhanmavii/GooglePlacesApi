@@ -1,0 +1,2 @@
+export const GOOGLEPLACESAPIKEY ="AIzaSyBMOu8ZBxVLhMwAyQsrESFgswRpOtkcL1w";
+

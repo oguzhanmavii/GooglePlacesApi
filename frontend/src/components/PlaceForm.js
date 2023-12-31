@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import {GOOGLEPLACESAPIKEY} from '../properties/applicationproperties';
 import { GoogleMap, LoadScript, Circle } from '@react-google-maps/api';
+
 
 const Map = ({ latitude, longitude, radius }) => {
   const defaultCenter = { lat: parseFloat(latitude), lng: parseFloat(longitude) };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBMOu8ZBxVLhMwAyQsrESFgswRpOtkcL1w">
+    <LoadScript googleMapsApiKey={GOOGLEPLACESAPIKEY}>
       <GoogleMap
         mapContainerStyle={{ height: '400px', width: '100%', borderRadius: '8px' }}
         zoom={10}
